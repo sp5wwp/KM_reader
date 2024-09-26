@@ -7,7 +7,7 @@ Run `make` in the main directory.
 ## Example use
 Scan the QR code and pass the base64 encoded string to `read`:
 ```bash
-echo -ne "AwIgS0NCtoYMAkAAHwBMABZvlxsAxZcb/1G/G+MIqQAwMDAwMDAwMDAwMC4CFQDNMsZglOkHejIUGWVZekHqkl9xswIVAJhDtEW94KCZ4y33Ybjwx32AE0mY" | base64 -d | ./read
+echo -n "AwIgS0NCtoYMAkAAHwBMABZvlxsAxZcb/1G/G+MIqQAwMDAwMDAwMDAwMC4CFQDNMsZglOkHejIUGWVZekHqkl9xswIVAJhDtEW94KCZ4y33Ybjwx32AE0mY" | base64 -d | ./read
 ```
 
 Running this command should result with:
